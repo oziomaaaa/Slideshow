@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: rgb(146, 139, 139);
+    margin: 0px;
+}
+
+main {
+    position: relative;
+}
+
+.slides {
+    display: none;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    /* margin-top: -22%; */
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.5s;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    /* margin-top: -22%; */
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.5s;
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.43);
+    color: aliceblue;
+}
